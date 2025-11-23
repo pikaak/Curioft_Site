@@ -40,7 +40,7 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>Curioft — AI 기반 심리 서비스 실험실</title>
+        <title>Curioft — Curious Web Lab</title>
         <meta
           name="description"
           content="Curioft는 재미있는 심리 테스트, 게임, AI 기반 컨셉 챗봇 등을 만들어 방문자에게 무료로 제공하는 작은 웹 실험실입니다."
@@ -53,9 +53,9 @@ export default function HomePage() {
             <div className="hero-text">
               <h1>Curioft — Curious & Soft Web Lab</h1>
               <p className="hero-subtitle">
-                재미있는 심리 테스트, 작은 게임, AI를 활용한 챗봇까지.
+                재미있는 심리 테스트, 우리 아이와 함께하는 게임, 나만의 챗봇까지.
                 <br />
-                누구나 부담없이 즐기고, 웃고, 생각해볼 수 있는 실험적인 웹 서비스를 만듭니다.
+                누구나 부담없이 즐기고, 웃고, 생각해볼 수 있는 웹 서비스를 만듭니다.
               </p>
               <div className="hero-actions">
                 <a
@@ -64,10 +64,10 @@ export default function HomePage() {
                   rel="noopener noreferrer"
                   className="btn btn-primary"
                 >
-                  캣 타로 체험하기
+                  우리 고양이는 무슨 생각을 하고 있을까? 궁금증 해소 캣타로
                 </a>
                 <a href="/about" className="btn btn-secondary">
-                  Curioft 소개 보기
+                  Curioft 소개
                 </a>
               </div>
             </div>
@@ -81,20 +81,20 @@ export default function HomePage() {
               <div className="card">
                 <h3>심리 테스트</h3>
                 <p>
-                  가볍게 즐길 수 있지만, 의외로 정확해서 공유하고 싶어지는 심리 테스트들을
+                  가볍게 즐길 수 있지만 의외로 정확해서 공유하고 싶어지는 테스트들을
                   계속 추가할 예정입니다. - 서비스 미정 -
                 </p>
               </div>
               <div className="card">
                 <h3>게임</h3>
                 <p>
-                  만약 내가 백혈구가 된다면? 스킬을 업그레이드하며 우리 몸에 침입한 각종 세균과 바이러스들을 무찔러보세요! - 서비스 미정 -
+                  만약 내가 백혈구가 된다면? 우리 몸에 침입한 각종 세균과 바이러스들을 무찔러보세요! - 서비스 미정 -
                 </p>
               </div>
               <div className="card">
-                <h3>AI 챗봇</h3>
+                <h3>캐릭터 챗봇</h3>
                 <p>
-                  여러 세계관의 인물과 대화해보세요! - 사비스 미정 -
+                  여러 세계관의 캐릭터와 나만의 경험을 쌓아보세요! - 사비스 미정 -
                 </p>
               </div>
             </div>
@@ -108,7 +108,7 @@ export default function HomePage() {
               <div className="card card-accent">
                 <h3>냥이 타로 번역기</h3>
                 <p>
-                  우리 고양이는 날 어떻게 생각할까? 어디 아픈 데는 없을까? "보고싶었어, 집사!" 당신의 반려묘를 위한 타로 카드 리딩 앱
+                  '우리 고양이는 날 어떻게 생각할까?' 집사들을 위한 Mystical cats 기반의 타로 리딩 사이트. 
                 </p>
                 <a
                   href="https://cattarot-s897.onrender.com"

@@ -9,13 +9,13 @@ export default function Document() {
         <meta charSet="utf-8" />
         <meta
           name="description"
-          content="Curioft — 재미있는 심리 테스트, 게임, AI 컨셉 챗봇을 만드는 작은 실험실. 방문자들에게 무료로 즐길 수 있는 다양한 웹 서비스를 제공합니다."
+          content="Curioft — 재미있는 심리 테스트, 게임, 챗봇을 만드는 작은 실험실."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content="Curioft — Curious & Soft Web Lab" />
         <meta
           property="og:description"
-          content="심리 테스트, 고양이 타로, AI 챗봇 등 다양한 실험적인 웹 서비스를 무료로 즐겨보세요."
+          content="고양이 타로 등 다양한 웹 서비스를 무료로 즐겨보세요."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://curioft.com" />
