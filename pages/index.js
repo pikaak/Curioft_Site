@@ -30,7 +30,7 @@ const FOOTER = (
     <div className="container footer-container">
       <p>© {new Date().getFullYear()} Curioft. All rights reserved.</p>
       <p className="footer-sub">
-        타로, 게임, 편의성 툴 등을 만들고 무료 제공하는 1인 스튜디오
+        타로, 게임, 편의성 툴 등을 만들고 무료 제공하는 웹 실험실
       </p>
     </div>
   </footer>
@@ -55,9 +55,7 @@ export default function HomePage() {
             <div className="hero-text">
               <h1>Curioft — Curious Web Lab</h1>
               <p className="hero-subtitle">
-                내 고양이가 답해주는 타로, 아이와 함께하는 백혈구의 모험 etc...
-                <br />
-                일상 속 작은 흥미와 치유를 제공하는 웹 실험실입니다.
+                내 고양이가 답해주는 타로, 아이와 함께하는 백혈구의 모험 etc... 일상 속 작은 흥미와 치유의 순간을 꿈꿉니다.
               </p>
             </div>
           </div>
@@ -69,14 +67,18 @@ export default function HomePage() {
             <h2>현재 공개된 서비스</h2>
 
             <div className="card-grid">
+
+              {/* --------------------------------------------- */}
+              {/* 왼쪽: 냥이 타로 번역기 카드 */}
+              {/* --------------------------------------------- */}
               <div className="card card-accent">
                 <h3>냥이 타로 번역기</h3>
                 <p>
-                  &apos;우리 고양이는 날 어떻게 생각할까?&apos;  
-                  알쏭달쏭한 집사들을 위한 Mystical Cats 기반 타로 리딩 사이트
+                  &apos;우리 고양이는 날 어떻게 생각할까?&apos;<br />
+                  Mystical Cats 기반 타로 리딩으로 내 냥님의 속마음을 번역해드립니다
                 </p>
 
-                {/* ⭐⭐ 가로 2장 이미지 배치 ⭐⭐ */}
+                {/* 가로 배치된 스크린샷 */}
                 <div
                   style={{
                     margin: '1rem 0 1.2rem',
@@ -91,7 +93,7 @@ export default function HomePage() {
                     src="/screenshots/cattarot1.png"
                     alt="캣타로 웹앱 스크린샷 1"
                     style={{
-                      width: '42%',    // 카드 폭의 약 40–45%
+                      width: '42%',
                       borderRadius: '12px',
                       border: '1px solid #d4d4d4',
                     }}
@@ -100,30 +102,48 @@ export default function HomePage() {
                     src="/screenshots/cattarot2.png"
                     alt="캣타로 웹앱 스크린샷 2"
                     style={{
-                      width: '42%',    // 균형 맞게 동일 비율
+                      width: '42%',
                       borderRadius: '12px',
                       border: '1px solid #d4d4d4',
                     }}
                   />
                 </div>
 
-                <a
-                  href="https://cattarot-s897.onrender.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-primary"
-                >
-                  지금 바로 사용해보기
-                </a>
+                {/* 버튼 중앙 정렬 */}
+                <div style={{ textAlign: 'center' }}>
+                  <a
+                    href="https://cattarot-s897.onrender.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-primary"
+                  >
+                    이동
+                  </a>
+                </div>
               </div>
 
-              <div className="card">
+              {/* --------------------------------------------- */}
+              {/* 오른쪽: Coming soon 카드 — 완전 중앙 정렬 */}
+              {/* --------------------------------------------- */}
+              <div
+                className="card"
+                style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'center', // 세로 중앙
+                  alignItems: 'center',     // 가로 중앙
+                  textAlign: 'center',
+                  minHeight: '280px',        // 카드 전체 높이 기준 중앙을 위해 필요
+                }}
+              >
                 <h3>Coming soon…</h3>
                 <p>
-                  다양한 서비스가 준비 중입니다.  
-                  Curioft는 천천히, 꾸준히 실험을 이어갑니다.
+                  다양한 서비스가 준비 중입니다.
+                  <br />
+                  Curioft는 천천히, 꾸준히 상상을 현실로 이어갑니다.
                 </p>
               </div>
+
             </div>
           </div>
         </section>
