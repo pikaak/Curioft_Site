@@ -9,7 +9,7 @@ export default function Document() {
         <meta charSet="utf-8" />
         <meta
           name="description"
-          content="Curioft — 재미있는 심리 테스트, 게임, 챗봇을 만드는 작은 실험실."
+          content="Curioft — 재미있는 웹 서비스를 만드는 작은 실험실."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content="Curioft — Curious Web Lab" />
