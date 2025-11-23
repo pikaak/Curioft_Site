@@ -67,10 +67,10 @@ export default function AboutPage() {
               가 있으며, 앞으로도 천천히 새로운 실험들을 추가해 나갈 예정입니다.
             </p>
 
-            <h2>핵심가치</h2>
+            <h2>Manifesto/h2>
             <ul>
               <li>세상에 없던 서비스</li>
-              <li>과도한 개인정보 수집 지양</li>
+              <li>개인정보 수집 지양</li>
               <li>일상 속 재미와 힐링</li>
             </ul>
 
