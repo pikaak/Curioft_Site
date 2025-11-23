@@ -28,3 +28,11 @@ h2,
 h3 {
   margin-top: 0;
 }
+
+/* 🔽 모바일에서 제목이 두 줄로 깨지는 문제 수정 */
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 1.6rem;
+    line-height: 1.3;
+  }
+}

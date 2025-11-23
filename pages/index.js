@@ -12,14 +12,7 @@ const NAV = (
         <a href="/about">About</a>
         <a href="/privacy">Privacy</a>
         <a href="/terms">Terms</a>
-        <a
-          href="https://cattarot-s897.onrender.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="cta-link"
-        >
-          궁금증 해소 캣타로
-        </a>
+        {/* 상단 캣타로 링크 제거됨 */}
       </nav>
     </div>
   </header>
@@ -64,18 +57,15 @@ export default function HomePage() {
         {/* 현재 공개된 서비스 */}
         <section className="section section-dark">
           <div className="container">
-            <h2>현재 공개된 서비스</h2>
+            <h2>공개된 서비스</h2>
 
             <div className="card-grid">
 
-              {/* --------------------------------------------- */}
               {/* 왼쪽: 냥이 타로 번역기 카드 */}
-              {/* --------------------------------------------- */}
               <div className="card card-accent">
                 <h3>냥이 타로 번역기</h3>
                 <p>
-                  &apos;우리 고양이는 날 어떻게 생각할까?&apos;<br />
-                  Mystical Cats 기반 타로 리딩으로 내 냥님의 속마음을 번역해드립니다
+                  '우리 고양이는 날 어떻게 생각할까?', '말하고 싶은 게 있나?' 냥님의 속마음을 번역해드립니다
                 </p>
 
                 {/* 가로 배치된 스크린샷 */}
@@ -122,9 +112,7 @@ export default function HomePage() {
                 </div>
               </div>
 
-              {/* --------------------------------------------- */}
               {/* 오른쪽: Coming soon 카드 — 완전 중앙 정렬 */}
-              {/* --------------------------------------------- */}
               <div
                 className="card"
                 style={{
@@ -133,7 +121,7 @@ export default function HomePage() {
                   justifyContent: 'center', // 세로 중앙
                   alignItems: 'center',     // 가로 중앙
                   textAlign: 'center',
-                  minHeight: '280px',        // 카드 전체 높이 기준 중앙을 위해 필요
+                  minHeight: '280px',
                 }}
               >
                 <h3>Coming soon…</h3>
