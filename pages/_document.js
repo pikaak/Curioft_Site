@@ -12,7 +12,7 @@ export default function Document() {
           content="Curioft — 재미있는 심리 테스트, 게임, 챗봇을 만드는 작은 실험실."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content="Curioft — Curious & Soft Web Lab" />
+        <meta property="og:title" content="Curioft — Curious Web Lab" />
         <meta
           property="og:description"
           content="고양이 타로 등 다양한 웹 서비스를 무료로 즐겨보세요."

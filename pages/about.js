@@ -44,7 +44,7 @@ export default function AboutPage() {
         <title>About — Curioft</title>
         <meta
           name="description"
-          content="Curioft는 일상 속의 재미를 추구합니다."
+          content="Curioft는 일상 속의 힐링을 추구합니다."
         />
       </Head>
       {NAV}

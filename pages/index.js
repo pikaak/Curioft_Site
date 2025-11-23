@@ -53,9 +53,9 @@ export default function HomePage() {
             <div className="hero-text">
               <h1>Curioft — Curious & Soft Web Lab</h1>
               <p className="hero-subtitle">
-                내 고양이가 직접 답해주는 타로, 우리 아이와 함께하는 게임 등.
+                내 고양이가 답해주는 타로, 우리 아이와 함께하는 게임 등
                 <br />
-                누구나 부담없이 즐기고 힐링할 수 있는 웹 서비스를 만듭니다.
+                누구나 부담없이 즐기고 힐링할 수 있는 순간을 만듭니다.
               </p>
             </div>
           </div>
