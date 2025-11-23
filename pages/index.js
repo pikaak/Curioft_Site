@@ -76,21 +76,22 @@ export default function HomePage() {
                   알쏭달쏭한 집사들을 위한 Mystical Cats 기반 타로 리딩 사이트
                 </p>
 
-                {/* 스크린샷 2장 (축소 버전) */}
+                {/* ⭐⭐ 가로 2장 이미지 배치 ⭐⭐ */}
                 <div
                   style={{
                     margin: '1rem 0 1.2rem',
                     display: 'flex',
-                    flexDirection: 'column',
-                    alignItems: 'center',   // ← 가운데 정렬
-                    gap: '0.75rem',
+                    flexDirection: 'row',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    gap: '1rem',
                   }}
                 >
                   <img
                     src="/screenshots/cattarot1.png"
                     alt="캣타로 웹앱 스크린샷 1"
                     style={{
-                      width: '25%',   // ★ 1/4 크기
+                      width: '42%',    // 카드 폭의 약 40–45%
                       borderRadius: '12px',
                       border: '1px solid #d4d4d4',
                     }}
@@ -99,7 +100,7 @@ export default function HomePage() {
                     src="/screenshots/cattarot2.png"
                     alt="캣타로 웹앱 스크린샷 2"
                     style={{
-                      width: '25%',   // ★ 1/4 크기
+                      width: '42%',    // 균형 맞게 동일 비율
                       borderRadius: '12px',
                       border: '1px solid #d4d4d4',
                     }}
