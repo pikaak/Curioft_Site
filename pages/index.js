@@ -33,7 +33,7 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>Curious Web Lab</title>
+        <title>궁금증과 힐링을 모두 잡고 싶다면</title>
         <meta
           name="description"
           content="웹에서 만나는 재미와 힐링 공간."
@@ -48,7 +48,7 @@ export default function HomePage() {
             <div className="hero-text">
               <h1>Curious Web Lab</h1>
               <p className="hero-subtitle">
-                일상 속 작은 흥미와 힐링의 순간을 제공하는 무료 놀이터
+                일상 속 작은 재미를 제공하고 지친 마음을 치유하는 공간을 목표로 합니다
               </p>
             </div>
           </div>
@@ -65,7 +65,7 @@ export default function HomePage() {
               <div className="card card-accent">
                 <h3>냥이 타로 번역기</h3>
                 <p>
-                  '우리 고양이는 날 어떻게 생각할까?','뭘 말하고 싶은 걸까?' 알쏭달쏭 냥님의 속마음을 리딩해 인간어로 번역해드립니다
+                  '우리 고양이는 날 어떻게 생각할까?','뭘 말하고 싶은 걸까?'
                 </p>
 
                 {/* 가로 배치된 스크린샷 */}
