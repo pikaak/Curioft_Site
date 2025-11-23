@@ -47,9 +47,9 @@ export default function AboutPage() {
           <div className="container legal-page">
             <h1>About Curioft</h1>
             <p className="legal-note">
-              Curioft는 &quot;Curious&quot;와 &quot;Soft&quot;를 합친 이름으로,
+              Curioft는 &quot;Curious&quot;와 &quot;Software&quot;를 합친 이름으로, 웹을 통해
               <br />
-              누구나 즐길 수 있는 재미와 힐링의 경험을 실험하는 1인 스튜디오입니다.
+              일상 속에서 쉽게 즐길 수 있는 재미와 힐링의 경험을 실험합니다.
             </p>
 
             <h2>개발중 서비스</h2>
