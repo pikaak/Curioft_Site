@@ -46,9 +46,9 @@ export default function HomePage() {
         <section className="hero-section">
           <div className="container hero-container">
             <div className="hero-text">
-              <h1>Curioft — Curious Web Lab</h1>
+              <h1>Curious Web Lab</h1>
               <p className="hero-subtitle">
-                일상 속 작은 흥미와 힐링의 순간
+                일상 속 작은 흥미와 힐링의 순간을 제공하는 무료 놀이터
               </p>
             </div>
           </div>
@@ -65,7 +65,7 @@ export default function HomePage() {
               <div className="card card-accent">
                 <h3>냥이 타로 번역기</h3>
                 <p>
-                  '우리 고양이는 날 어떻게 생각할까?','뭘 말하고 싶은 걸까?' 냥님의 속마음을 타로 리딩을 통해 번역해드립니다
+                  '우리 고양이는 날 어떻게 생각할까?','뭘 말하고 싶은 걸까?' 알쏭달쏭 냥님의 속마음을 리딩해 인간어로 번역해드립니다
                 </p>
 
                 {/* 가로 배치된 스크린샷 */}
