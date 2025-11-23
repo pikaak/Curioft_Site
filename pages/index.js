@@ -30,7 +30,7 @@ const FOOTER = (
     <div className="container footer-container">
       <p>© {new Date().getFullYear()} Curioft. All rights reserved.</p>
       <p className="footer-sub">
-        타로, 게임, 편의성 툴 등을 제작하는 1인 스튜디오
+        타로, 게임, 편의성 툴 등을 만들고 무료 제공하는 1인 스튜디오
       </p>
     </div>
   </footer>
@@ -46,7 +46,9 @@ export default function HomePage() {
           content="웹에서 만나는 재미와 힐링."
         />
       </Head>
+
       {NAV}
+
       <main className="site-main">
         <section className="hero-section">
           <div className="container hero-container">
@@ -55,31 +57,32 @@ export default function HomePage() {
               <p className="hero-subtitle">
                 내 고양이가 답해주는 타로, 아이와 함께하는 백혈구의 모험 etc...
                 <br />
-                일상 속 작은 흥미를 제공하고 지친 마음을 치유해줄 수 있는 공간이 되고 싶습니다
+                일상 속 작은 흥미와 치유를 제공하는 웹 실험실입니다.
               </p>
             </div>
           </div>
         </section>
 
-        {/* 'Curioft가 만드는 것들' 섹션을 삭제하고 현재 공개 서비스만 노출 */}
-
+        {/* 현재 공개된 서비스 */}
         <section className="section section-dark">
           <div className="container">
             <h2>현재 공개된 서비스</h2>
+
             <div className="card-grid">
               <div className="card card-accent">
                 <h3>냥이 타로 번역기</h3>
                 <p>
-                  &apos;우리 고양이는 날 어떻게 생각할까?&apos; 알쏭달쏭한 집사들을 위한 Mystical
-                  Cats 기반 타로 리딩 사이트
+                  &apos;우리 고양이는 날 어떻게 생각할까?&apos;  
+                  알쏭달쏭한 집사들을 위한 Mystical Cats 기반 타로 리딩 사이트
                 </p>
 
-                {/* 설명문과 버튼 사이에 캣타로 스크린샷 2장 */}
+                {/* 스크린샷 2장 (축소 버전) */}
                 <div
                   style={{
                     margin: '1rem 0 1.2rem',
                     display: 'flex',
                     flexDirection: 'column',
+                    alignItems: 'center',   // ← 가운데 정렬
                     gap: '0.75rem',
                   }}
                 >
@@ -87,7 +90,7 @@ export default function HomePage() {
                     src="/screenshots/cattarot1.png"
                     alt="캣타로 웹앱 스크린샷 1"
                     style={{
-                      width: '100%',
+                      width: '25%',   // ★ 1/4 크기
                       borderRadius: '12px',
                       border: '1px solid #d4d4d4',
                     }}
@@ -96,7 +99,7 @@ export default function HomePage() {
                     src="/screenshots/cattarot2.png"
                     alt="캣타로 웹앱 스크린샷 2"
                     style={{
-                      width: '100%',
+                      width: '25%',   // ★ 1/4 크기
                       borderRadius: '12px',
                       border: '1px solid #d4d4d4',
                     }}
@@ -112,17 +115,19 @@ export default function HomePage() {
                   지금 바로 사용해보기
                 </a>
               </div>
+
               <div className="card">
                 <h3>Coming soon…</h3>
                 <p>
-                  다양한 서비스가 준비 중입니다. Curioft는 천천히, 꾸준히 실험을
-                  이어갑니다.
+                  다양한 서비스가 준비 중입니다.  
+                  Curioft는 천천히, 꾸준히 실험을 이어갑니다.
                 </p>
               </div>
             </div>
           </div>
         </section>
       </main>
+
       {FOOTER}
     </>
   );
