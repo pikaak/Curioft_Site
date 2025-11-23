@@ -18,7 +18,7 @@ const NAV = (
           rel="noopener noreferrer"
           className="cta-link"
         >
-          캣 타로 웹앱
+          궁금증 해소 캣타로
         </a>
       </nav>
     </div>
@@ -30,7 +30,7 @@ const FOOTER = (
     <div className="container footer-container">
       <p>© {new Date().getFullYear()} Curioft. All rights reserved.</p>
       <p className="footer-sub">
-        재미있는 심리 테스트, 게임, 챗봇을 실험하는 작은 웹 스튜디오.
+        재미있는 테스트, 게임 등을 실험하는 작은 웹 스튜디오.
       </p>
     </div>
   </footer>
@@ -43,7 +43,7 @@ export default function HomePage() {
         <title>Curioft — Curious Web Lab</title>
         <meta
           name="description"
-          content="Curioft는 재미있는 심리 테스트, 게임, AI 기반 컨셉 챗봇 등을 만들어 방문자에게 무료로 제공하는 작은 웹 실험실입니다."
+          content="Curioft는 여러가지 테스트, 게임, 챗봇 등을 무료 제공하기 위한 실험실입니다."
         />
       </Head>
       {NAV}
@@ -53,23 +53,10 @@ export default function HomePage() {
             <div className="hero-text">
               <h1>Curioft — Curious & Soft Web Lab</h1>
               <p className="hero-subtitle">
-                재미있는 심리 테스트, 우리 아이와 함께하는 게임, 나만의 챗봇까지.
+                내 고양이가 직접 답해주는 타로, 우리 아이와 함께하는 게임 등.
                 <br />
-                누구나 부담없이 즐기고, 웃고, 생각해볼 수 있는 웹 서비스를 만듭니다.
+                누구나 부담없이 즐기고 힐링할 수 있는 웹 서비스를 만듭니다.
               </p>
-              <div className="hero-actions">
-                <a
-                  href="https://cattarot-s897.onrender.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-primary"
-                >
-                  우리 고양이는 무슨 생각을 하고 있을까? 궁금증 해소 캣타로
-                </a>
-                <a href="/about" className="btn btn-secondary">
-                  Curioft 소개
-                </a>
-              </div>
             </div>
           </div>
         </section>
@@ -88,7 +75,7 @@ export default function HomePage() {
               <div className="card">
                 <h3>게임</h3>
                 <p>
-                  만약 내가 백혈구가 된다면? 우리 몸에 침입한 각종 세균과 바이러스들을 무찔러보세요! - 서비스 미정 -
+                  내가 백혈구가 된다면? 우리 몸에 침입한 세균과 싸워 면역체계를 지켜내세요! - 서비스 미정 -
                 </p>
               </div>
               <div className="card">
@@ -108,7 +95,8 @@ export default function HomePage() {
               <div className="card card-accent">
                 <h3>냥이 타로 번역기</h3>
                 <p>
-                  '우리 고양이는 날 어떻게 생각할까?' 집사들을 위한 Mystical cats 기반의 타로 리딩 사이트. 
+                  '우리 고양이는 날 어떻게 생각할까?' 집사들을 위한 Mystical cats 기반의
+                  타로 리딩 사이트.
                 </p>
                 <a
                   href="https://cattarot-s897.onrender.com"

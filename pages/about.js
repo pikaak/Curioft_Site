@@ -31,7 +31,7 @@ const FOOTER = (
     <div className="container footer-container">
       <p>© {new Date().getFullYear()} Curioft. All rights reserved.</p>
       <p className="footer-sub">
-        재미와 힐링을 테마로 여러가지 웹 서비스를 실험하는 1인 스튜디오.
+        힐링을 테마로 여러가지 웹 서비스를 실험하고 있습니다.
       </p>
     </div>
   </footer>
@@ -54,12 +54,12 @@ export default function AboutPage() {
             <h1>About Curioft</h1>
             <p>
               Curioft는 &quot;Curious&quot;와 &quot;Software&quot;를 합쳐 만든 이름으로, 우리의
-              작은 궁금증들을 해소하거나 마음 속 상처를 치유할 수 있는 서비스를 꿈꾸며 시작된 실험실입니다.
+              작은 궁금증들을 해소하거나 마음 속 상처를 치유할 수 있는 서비스를 꿈꾸며 시작되었습니다.
             </p>
             <p>
               이곳에서 만들어지는 것들은 크게
-              <strong> 교육용 게임, 내가 원하는 세계관 속 캐럭티와의 대화 서비스 </strong>
-              을 목표로 합니다. 복잡한 목표보다는, 일상 속에서 잠깐 힐링할 수 있는 경험을 제공하고자 합니다.
+              <strong> 일상 속에서 잠깐 힐링할 수 있는 경험 </strong>
+              을 제공하고자 합니다.
             </p>
             <p>
               현재 공개된 서비스로는 반려묘를 위한 타로 리딩 서비스
