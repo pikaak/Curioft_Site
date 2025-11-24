@@ -33,11 +33,19 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>궁금증과 힐링을 모두 잡고 싶다면</title>
+        <title>웹으로 즐기는 나만의 힐링 놀이타</title>
         <meta
           name="description"
-          content="웹에서 만나는 재미와 힐링 공간."
-        />
+          content="웹에서 즐기는 색다른 힐링."
+
+          
+        {/* 👇 귀여운 한글 폰트 Jua 불러오기 */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Jua&display=swap"
+          rel="stylesheet"
+         />
       </Head>
 
       {NAV}
