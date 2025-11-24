@@ -33,19 +33,19 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>웹으로 즐기는 나만의 힐링 놀이타</title>
+        <title>웹으로 즐기는 나만의 힐링 놀이터</title>
         <meta
           name="description"
           content="웹에서 즐기는 색다른 힐링."
+        />
 
-          
         {/* 👇 귀여운 한글 폰트 Jua 불러오기 */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
           href="https://fonts.googleapis.com/css2?family=Jua&display=swap"
           rel="stylesheet"
-         />
+        />
       </Head>
 
       {NAV}
@@ -76,7 +76,6 @@ export default function HomePage() {
                   우리 고양이는 날 어떻게 생각할까? 뭘 말하고 싶은 걸까?
                 </p>
 
-                {/* 가로 배치된 스크린샷 */}
                 <div
                   style={{
                     margin: '1rem 0 1.2rem',
@@ -107,7 +106,6 @@ export default function HomePage() {
                   />
                 </div>
 
-                {/* 버튼 중앙 정렬 */}
                 <div style={{ textAlign: 'center' }}>
                   <a
                     href="https://cattarot.curioft.com"
@@ -120,14 +118,14 @@ export default function HomePage() {
                 </div>
               </div>
 
-              {/* 오른쪽: Coming soon 카드 — 완전 중앙 정렬 */}
+              {/* 오른쪽: Coming Soon 카드 */}
               <div
                 className="card"
                 style={{
                   display: 'flex',
                   flexDirection: 'column',
-                  justifyContent: 'center', // 세로 중앙
-                  alignItems: 'center',     // 가로 중앙
+                  justifyContent: 'center',
+                  alignItems: 'center',
                   textAlign: 'center',
                   minHeight: '280px',
                 }}
