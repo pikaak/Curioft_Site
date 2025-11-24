@@ -48,7 +48,7 @@ export default function HomePage() {
             <div className="hero-text">
               <h1>호기심 공작소</h1>
               <p className="hero-subtitle">
-                 웹으로 즐기는 나만의 힐링 놀이터
+                 오늘은 뭘 해볼까? - 웹으로 즐기는 나만의 힐링 놀이터
               </p>
             </div>
           </div>
