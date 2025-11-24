@@ -46,9 +46,9 @@ export default function HomePage() {
         <section className="hero-section">
           <div className="container hero-container">
             <div className="hero-text">
-              <h1>혹시 이런 거 필요했어?</h1>
+              <h1>호기심 공작소</h1>
               <p className="hero-subtitle">
-                타로, 게임, 편의성 툴 등을 만드는 일상 속 힐링 놀이터
+                 웹으로 즐기는 나만의 힐링 놀이터
               </p>
             </div>
           </div>
@@ -57,7 +57,7 @@ export default function HomePage() {
         {/* 현재 공개된 서비스 */}
         <section className="section section-dark">
           <div className="container">
-            <h2>오늘은 이거 어때?</h2>
+            <h2>이건 어때?</h2>
 
             <div className="card-grid">
 
@@ -128,7 +128,7 @@ export default function HomePage() {
                 <p>
                   다양한 서비스가 준비 중입니다.
                   <br />
-                  Curioft는 천천히, 꾸준히 상상을 현실로 이어갑니다.
+                  조금만 기다려주세요.
                 </p>
               </div>
 
