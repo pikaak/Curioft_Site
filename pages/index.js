@@ -23,7 +23,7 @@ const FOOTER = (
     <div className="container footer-container">
       <p>© {new Date().getFullYear()} Curioft. All rights reserved.</p>
       <p className="footer-sub">
-        타로, 게임, 편의성 툴 등을 만들고 무료 제공하는 웹 실험실
+        무단 도용 및 재배포 금지
       </p>
     </div>
   </footer>
@@ -46,9 +46,9 @@ export default function HomePage() {
         <section className="hero-section">
           <div className="container hero-container">
             <div className="hero-text">
-              <h1>Curious Web Lab</h1>
+              <h1>혹시 이런 거 필요했어?</h1>
               <p className="hero-subtitle">
-                일상 속 작은 재미를 제공하고 지친 마음을 치유하는 공간을 목표로 합니다
+                타로, 게임, 편의성 툴 등을 만드는 일상 속 힐링 놀이터
               </p>
             </div>
           </div>
@@ -65,7 +65,7 @@ export default function HomePage() {
               <div className="card card-accent">
                 <h3>냥이 타로 번역기</h3>
                 <p>
-                  '우리 고양이는 날 어떻게 생각할까?','뭘 말하고 싶은 걸까?'
+                  우리 고양이는 날 어떻게 생각할까? 뭘 말하고 싶은 걸까?
                 </p>
 
                 {/* 가로 배치된 스크린샷 */}
@@ -102,7 +102,7 @@ export default function HomePage() {
                 {/* 버튼 중앙 정렬 */}
                 <div style={{ textAlign: 'center' }}>
                   <a
-                    href="https://cattarot-s897.onrender.com"
+                    href="https://cattarot.curioft.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-primary"
