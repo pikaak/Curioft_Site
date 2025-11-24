@@ -111,7 +111,7 @@
 /* 제목 아래 설명들은 전부 검정 계열로 통일 */
 .hero-subtitle {
   color: #1f1f1f;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   line-height: 1.6;
   max-width: 640px;
 }
