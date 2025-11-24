@@ -23,7 +23,7 @@ const FOOTER = (
     <div className="container footer-container">
       <p>© {new Date().getFullYear()} Curioft. All rights reserved.</p>
       <p className="footer-sub">
-        타로, 게임, 편의성 툴 등을 만들고 무료 제공하는 웹 실험실
+        타로, 게임, 편의성 툴 등을 만들고 무료 제공하는 호기심 공작소
       </p>
     </div>
   </footer>
@@ -124,8 +124,7 @@ export default function TermsPage() {
 
             <h2>8. 타로/심리 테스트 등 콘텐츠에 대한 안내</h2>
             <p>
-              서비스에서 제공하는 타로 리딩, 심리 테스트, 게임 등은 어디까지나 엔터테인먼트 및
-              자기 성찰을 돕기 위한 도구일 뿐, 의학적・법률적・재정적 조언을 대신하지 않습니다.
+              서비스에서 제공되는 내용은 어디까지나 엔터테인먼트 및 자가 치유를 돕기 위한 도구일 뿐, 의학적・법률적・재정적 조언을 대신하지 않습니다.
             </p>
             <p>
               중요한 결정은 반드시 전문가와의 상담, 추가적인 정보 확인 등을 통해 신중히 진행해 주시기
