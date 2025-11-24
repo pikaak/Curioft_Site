@@ -48,7 +48,7 @@ export default function HomePage() {
             <div className="hero-text">
               <h1>호기심 공작소</h1>
               <p className="hero-subtitle">
-                 오늘은 뭘 해볼까? - 웹으로 즐기는 나만의 힐링 놀이터
+                 웹으로 즐기는 나만의 힐링 놀이터
               </p>
             </div>
           </div>
@@ -57,7 +57,7 @@ export default function HomePage() {
         {/* 현재 공개된 서비스 */}
         <section className="section section-dark">
           <div className="container">
-            <h2>이건 어때?</h2>
+            <h2>오늘은 뭘 해볼까?</h2>
 
             <div className="card-grid">
 
