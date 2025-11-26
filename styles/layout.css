@@ -31,7 +31,7 @@
 .logo span {
   font-weight: 700;
   font-size: 1.1rem;
-  color: #4f8484; /* 진한 민트 계열 */
+  color: #4f8484;
 }
 
 .nav-links {
@@ -43,7 +43,7 @@
 
 .nav-links a {
   opacity: 0.95;
-  color: #3f4a8a; /* 진한 라벤더-블루 */
+  color: #3f4a8a;
 }
 
 .nav-links a:hover {
@@ -74,11 +74,11 @@
 }
 
 .section-light {
-  background: #f7faf9; /* 연한 민트 화이트 */
+  background: #f7faf9;
 }
 
 .section-dark {
-  background: #eef1ff; /* 파스텔 라벤더 */
+  background: #eef1ff;
 }
 
 /* ----------------------------
@@ -101,22 +101,22 @@
   gap: 1.5rem;
 }
 
+/* ⭐ IBM Plex Sans KR 적용 (호기심 공작소) */
 .hero-text h1 {
   font-size: 2.2rem;
   line-height: 1.2;
   margin-bottom: 0.4rem;
-  color: #4f7f7f; /* 진한 민트 */
-  font-family: 'Jua', system-ui, sans-serif; /* ← 추가 */
+  color: #4f7f7f;
+  font-family: 'IBM Plex Sans KR', system-ui, sans-serif;
 }
 
-/* 제목 아래 설명들은 전부 검정 계열로 통일 */
-/* ⭐ Jua 폰트를 이 문구에만 적용 */
+/* ⭐ IBM Plex Sans KR 적용 (웹으로 즐기는~) */
 .hero-subtitle {
   color: #1f1f1f;
   font-size: 1.05rem;
   line-height: 1.6;
   max-width: 640px;
-  font-family: 'Jua', system-ui, sans-serif; /* ← 여기 추가됨 */
+  font-family: 'IBM Plex Sans KR', system-ui, sans-serif;
 }
 
 /* ----------------------------
@@ -147,18 +147,18 @@
   padding: 1.2rem 1.2rem 1.1rem;
   border: 1px solid rgba(180, 200, 220, 0.45);
   font-size: 0.9rem;
-  color: #1f1f1f; /* 텍스트 강하게 */
+  color: #1f1f1f;
   box-shadow: 0 2px 8px rgba(150, 180, 200, 0.12);
 }
 
 .card h3 {
   font-size: 1.05rem;
   margin-bottom: 0.4rem;
-  color: #4a5fae; /* 파스텔 블루 */
+  color: #4a5fae;
 }
 
 .card-accent {
-  border-color: #7cc8c2; /* 민트 강조 */
+  border-color: #7cc8c2;
   background: #f1fbfa;
 }
 

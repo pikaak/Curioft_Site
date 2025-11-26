@@ -39,11 +39,11 @@ export default function HomePage() {
           content="웹에서 즐기는 색다른 힐링."
         />
 
-        {/* 👇 귀여운 한글 폰트 Jua 불러오기 */}
+        {/* ⭐ IBM Plex Sans KR 폰트 불러오기 */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Jua&display=swap"
+          href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;500;600&display=swap"
           rel="stylesheet"
         />
       </Head>
@@ -56,7 +56,7 @@ export default function HomePage() {
             <div className="hero-text">
               <h1>호기심 공작소</h1>
               <p className="hero-subtitle">
-                 웹으로 즐기는 나만의 힐링 놀이터
+                웹으로 즐기는 나만의 힐링 놀이터
               </p>
             </div>
           </div>
