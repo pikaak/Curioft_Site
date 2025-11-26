@@ -106,6 +106,7 @@
   line-height: 1.2;
   margin-bottom: 0.4rem;
   color: #4f7f7f; /* 진한 민트 */
+  font-family: 'Jua', system-ui, sans-serif; /* ← 추가 */
 }
 
 /* 제목 아래 설명들은 전부 검정 계열로 통일 */
