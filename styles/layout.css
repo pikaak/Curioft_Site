@@ -101,6 +101,11 @@
   gap: 1.5rem;
 }
 
+/* ⭐ HERO 텍스트 전체 중앙 정렬 */
+.hero-text {
+  text-align: center;
+}
+
 /* ⭐ IBM Plex Sans KR 적용 (호기심 공작소) */
 .hero-text h1 {
   font-size: 2.2rem;
@@ -116,6 +121,7 @@
   font-size: 1.3rem;
   line-height: 1.6;
   max-width: 640px;
+  margin: 0 auto;  /* 중앙 블록 정렬 보정 */
   font-family: 'IBM Plex Sans KR', system-ui, sans-serif;
 }
 
