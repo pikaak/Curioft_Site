@@ -241,6 +241,12 @@
   gap: 0.15rem;
 }
 
+/* 🔥 여기! p 태그 기본 마진 제거해서 줄간격 정상화 */
+.site-footer p {
+  margin: 0;
+  line-height: 1.3;
+}
+
 .footer-sub {
   color: #8a96a8;
 }
