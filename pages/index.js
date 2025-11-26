@@ -49,13 +49,13 @@ export default function HomePage() {
           <div className="container hero-container">
             <div className="hero-text">
 
-              {/* ⭐ 원래대로: 호기심 공작소 (기존 h1 스타일) */}
-              <h1>호기심 공작소</h1>
-
-              {/* ⭐ 한 줄 아래: subtitle 스타일 유지 */}
+              {/* ⭐ 위: subtitle 먼저 */}
               <p className="hero-subtitle">
-                — 웹으로 즐기는 나만의 힐링 놀이터
+                웹으로 즐기는 나만의 힐링 놀이터
               </p>
+
+              {/* ⭐ 아래: h1 */}
+              <h1>호기심 공작소</h1>
 
             </div>
           </div>
