@@ -48,10 +48,15 @@ export default function HomePage() {
         <section className="hero-section">
           <div className="container hero-container">
             <div className="hero-text">
-              {/* ⭐ 한 줄로 통합 + subtitle 스타일 적용 */}
-              <p className="hero-subtitle hero-title-single">
-                호기심 공작소 — 웹으로 즐기는 나만의 힐링 놀이터
+
+              {/* ⭐ 원래대로: 호기심 공작소 (기존 h1 스타일) */}
+              <h1>호기심 공작소</h1>
+
+              {/* ⭐ 한 줄 아래: subtitle 스타일 유지 */}
+              <p className="hero-subtitle">
+                — 웹으로 즐기는 나만의 힐링 놀이터
               </p>
+
             </div>
           </div>
         </section>
