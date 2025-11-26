@@ -5,7 +5,7 @@ const NAV = (
   <header className="site-header">
     <div className="container nav-container">
       <div className="logo">
-        <a href="/">Curioft</a>
+        <span style={{ cursor: 'default' }}>Curioft</span>
       </div>
       <nav className="nav-links">
         <a href="/">Home</a>
