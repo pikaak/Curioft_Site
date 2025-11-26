@@ -28,7 +28,7 @@
   height: 56px;
 }
 
-.logo a {
+.logo span {
   font-weight: 700;
   font-size: 1.1rem;
   color: #4f8484; /* 진한 민트 계열 */
