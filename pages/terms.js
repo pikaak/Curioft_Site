@@ -23,7 +23,7 @@ const FOOTER = (
     <div className="container footer-container">
       <p>© {new Date().getFullYear()} Curioft. All rights reserved.</p>
       <p className="footer-sub">
-        타로, 게임, 편의성 툴 등을 만들고 무료 제공하는 호기심 공작소
+        무단 도용 및 재배포 금지
       </p>
     </div>
   </footer>
