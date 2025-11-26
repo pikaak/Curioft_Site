@@ -109,11 +109,13 @@
 }
 
 /* 제목 아래 설명들은 전부 검정 계열로 통일 */
+/* ⭐ Jua 폰트를 이 문구에만 적용 */
 .hero-subtitle {
   color: #1f1f1f;
   font-size: 1.05rem;
   line-height: 1.6;
   max-width: 640px;
+  font-family: 'Jua', system-ui, sans-serif; /* ← 여기 추가됨 */
 }
 
 /* ----------------------------
@@ -160,7 +162,7 @@
 }
 
 /* ----------------------------
-   BUTTONS (높은 대비)
+   BUTTONS
 ----------------------------- */
 
 .btn {
@@ -174,17 +176,15 @@
   cursor: pointer;
 }
 
-/* Primary (강한 민트 + 완전 흰 글씨) */
 .btn-primary {
-  background: #3f9f98;  /* 진한 민트 */
-  color: #ffffff !important;  /* 완전한 흰색 */
+  background: #3f9f98;
+  color: #ffffff !important;
 }
 
-/* Secondary (약간 진한 파스텔 라벤더 + 글씨 검정) */
 .btn-secondary {
   border-color: #b2baf5;
-  color: #222222; /* 더 진한 글씨 */
-  background: #cfd6ff; /* 조금 더 진한 라벤더 */
+  color: #222222;
+  background: #cfd6ff;
 }
 
 .btn:hover {
@@ -241,7 +241,6 @@
   gap: 0.15rem;
 }
 
-/* 🔥 여기! p 태그 기본 마진 제거해서 줄간격 정상화 */
 .site-footer p {
   margin: 0;
   line-height: 1.3;
