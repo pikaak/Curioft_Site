@@ -12,7 +12,6 @@ const NAV = (
         <a href="/about">About</a>
         <a href="/privacy">Privacy</a>
         <a href="/terms">Terms</a>
-        {/* 상단 캣타로 링크 제거됨 */}
       </nav>
     </div>
   </header>
@@ -22,9 +21,7 @@ const FOOTER = (
   <footer className="site-footer">
     <div className="container footer-container">
       <p>© {new Date().getFullYear()} Curioft. All rights reserved.</p>
-      <p className="footer-sub">
-        무단 도용 및 재배포 금지
-      </p>
+      <p className="footer-sub">무단 도용 및 재배포 금지</p>
     </div>
   </footer>
 );
@@ -34,12 +31,9 @@ export default function HomePage() {
     <>
       <Head>
         <title>웹으로 즐기는 나만의 힐링 놀이터</title>
-        <meta
-          name="description"
-          content="웹에서 즐기는 색다른 힐링."
-        />
+        <meta name="description" content="웹에서 즐기는 색다른 힐링." />
 
-        {/* ⭐ IBM Plex Sans KR 폰트 불러오기 */}
+        {/* IBM Plex Sans KR 불러오기 */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
@@ -54,9 +48,9 @@ export default function HomePage() {
         <section className="hero-section">
           <div className="container hero-container">
             <div className="hero-text">
-              <h1>호기심 공작소</h1>
-              <p className="hero-subtitle">
-                웹으로 즐기는 나만의 힐링 놀이터
+              {/* ⭐ 한 줄로 통합 + subtitle 스타일 적용 */}
+              <p className="hero-subtitle hero-title-single">
+                호기심 공작소 — 웹으로 즐기는 나만의 힐링 놀이터
               </p>
             </div>
           </div>
@@ -68,13 +62,9 @@ export default function HomePage() {
             <h2>오늘은 뭘 해볼까?</h2>
 
             <div className="card-grid">
-
-              {/* 왼쪽: 냥이 타로 번역기 카드 */}
               <div className="card card-accent">
                 <h3>냥이 타로 번역기</h3>
-                <p>
-                  우리 고양이는 날 어떻게 생각할까? 뭘 말하고 싶은 걸까?
-                </p>
+                <p>우리 고양이는 날 어떻게 생각할까? 뭘 말하고 싶은 걸까?</p>
 
                 <div
                   style={{
@@ -118,7 +108,6 @@ export default function HomePage() {
                 </div>
               </div>
 
-              {/* 오른쪽: Coming Soon 카드 */}
               <div
                 className="card"
                 style={{
@@ -137,7 +126,6 @@ export default function HomePage() {
                   조금만 기다려주세요.
                 </p>
               </div>
-
             </div>
           </div>
         </section>
