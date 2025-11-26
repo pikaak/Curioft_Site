@@ -55,7 +55,7 @@ export default function HomePage() {
               </p>
 
               {/* ⭐ 아래: h1 */}
-              <h1>호기심 공작소</h1>
+              <h1>CURIONEST</h1>
 
             </div>
           </div>
