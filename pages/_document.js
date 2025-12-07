@@ -21,10 +21,10 @@ export default function Document() {
         <meta property="og:url" content="https://curioft.com" />
         <meta property="og:site_name" content="Curioft" />
 
-        {/* ⭐ Google AdSense 소유권 인증 스니펫 — 최상위 도메인 검증용 */}
+        {/* ⭐ Google AdSense Ownership Verification */}
         <script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5508089402067916"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5508808494020679"
           crossOrigin="anonymous"
         ></script>
       </Head>
