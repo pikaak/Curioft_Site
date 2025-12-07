@@ -43,7 +43,7 @@ export default function AboutPage() {
       <main className="site-main">
         <section className="section section-light">
           <div className="container legal-page">
-            <h1>About Curioft</h1>
+            <h1>큐리오프트는 무슨 뜻인가요?</h1>
 
             <p className="legal-note">
               Curioft는 &quot;Curious&quot;와 &quot;Software&quot;를 합친 이름으로,
