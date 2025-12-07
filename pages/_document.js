@@ -1,4 +1,3 @@
-
 // pages/_document.js
 import { Html, Head, Main, NextScript } from 'next/document';
 
@@ -6,6 +5,7 @@ export default function Document() {
   return (
     <Html lang="ko">
       <Head>
+        {/* 기본 메타태그 */}
         <meta charSet="utf-8" />
         <meta
           name="description"
@@ -20,7 +20,15 @@ export default function Document() {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://curioft.com" />
         <meta property="og:site_name" content="Curioft" />
+
+        {/* ⭐ Google AdSense 소유권 인증 스니펫 — 최상위 도메인 검증용 */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5508089402067916"
+          crossOrigin="anonymous"
+        ></script>
       </Head>
+
       <body>
         <Main />
         <NextScript />
