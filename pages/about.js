@@ -43,7 +43,7 @@ export default function AboutPage() {
       <main className="site-main">
         <section className="section section-light">
           <div className="container legal-page">
-            <h1>큐리오프트는 무슨 뜻인가요?</h1>
+            <h1>About Curioft</h1>
 
             <p className="legal-note">
               Curioft는 &quot;Curious&quot;와 &quot;Software&quot;를 합친 이름으로,
@@ -81,7 +81,7 @@ export default function AboutPage() {
               내 안에 잠자는 영혼의 동물을 찾아 대화해볼 수 있는 챗봇 등은 공통적으로 인터랙티브한 힐링 경험을 추구합니다.
             </p>
 
-            <h2>Manifesto</h2>
+            <h2>핵심가치</h2>
             <ul>
               <li>누구나 즐길 수 있는 무료 공간을 지향합니다.</li>
               <li>불필요한 개인정보 수집을 지양합니다.</li>
