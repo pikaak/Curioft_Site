@@ -55,7 +55,7 @@ export default function HomePage() {
               </p>
 
               {/* ⭐ 아래: h1 */}
-              <h1>CURIONEST</h1>
+              <h1>큐리오네스트</h1>
 
             </div>
           </div>
@@ -130,7 +130,7 @@ export default function HomePage() {
                 </p>
 
                 <p style={{ marginTop: '1rem' }}>
-                  다음 서비스 목표 - 당신의 스피릿 애니멀은? 2026.01
+                  다음 서비스 목표 - 당신의 스피릿 애니멀은? 2026.01.01
                 </p>
               </div>
             </div>
