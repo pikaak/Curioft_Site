@@ -124,11 +124,11 @@ export default function HomePage() {
                   minHeight: '280px',
                 }}
               >
-                <h3>Coming soon…</h3>
+                <h3>Qurionest?</h3>
                 <p>
-                  다양한 서비스가 준비 중입니다.
+                  일상 속에서 쉽게 즐길 수 있는 힐링 게임과 편의성 툴을 보다 많은 이들에게 제공하기 위해 만들어진 웹공간입니다.
                   <br />
-                  조금만 기다려주세요.
+                  Next: 당신의 스피릿 애니멀은? 2026.01
                 </p>
               </div>
             </div>
