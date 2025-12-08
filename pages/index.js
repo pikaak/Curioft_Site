@@ -118,7 +118,7 @@ export default function HomePage() {
                   minHeight: '280px',
                 }}
               >
-                <h3>Qurionest?</h3>
+                <h3>What is Qurionest?</h3>
                 <p>
                   일상 속에서 쉽게 즐길 수 있는 힐링 콘텐츠를 <br/>
                   보다 널리 제공하기 위해 만들어진 웹 공간입니다.
