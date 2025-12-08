@@ -47,7 +47,7 @@ export default function AboutPage() {
 
             <p className="legal-note">
               Curioft는 &quot;Curious&quot;와 &quot;Software&quot;를 합친 이름으로,
-              웹을 통해 일상 속의 힐링을 제공하기 위한 1인 프로젝트입니다. 
+              웹을 통해 일상 속의 힐링을 제공하기 위한 1인 프로젝트입니다. <br/> 
               어디서나 쉽게 접근 가능하면서 지친 하루의 에너지를 충전해 돌아갈 수 있는 콘텐츠를 추구합니다.
             </p>
 
