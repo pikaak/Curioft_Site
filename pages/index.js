@@ -1,5 +1,6 @@
 // pages/index.js
 import Head from 'next/head';
+import GoogleAdBanner from "@/components/GoogleAdBanner";  // ⭐ 광고 컴포넌트 추가
 
 const NAV = (
   <header className="site-header">
@@ -33,7 +34,7 @@ export default function HomePage() {
         <title>웹으로 즐기는 나만의 힐링 놀이터</title>
         <meta name="description" content="웹에서 즐기는 색다른 힐링." />
 
-        {/* IBM Plex Sans KR 불러오기 */}
+        {/* IBM Plex Sans KR */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
@@ -48,15 +49,8 @@ export default function HomePage() {
         <section className="hero-section">
           <div className="container hero-container">
             <div className="hero-text">
-
-              {/* ⭐ 위: subtitle 먼저 */}
-              <p className="hero-subtitle">
-                웹으로 즐기는 나만의 힐링 놀이터
-              </p>
-
-              {/* ⭐ 아래: h1 */}
+              <p className="hero-subtitle">웹으로 즐기는 나만의 힐링 놀이터</p>
               <h1>큐리오네스트</h1>
-
             </div>
           </div>
         </section>
@@ -137,6 +131,11 @@ export default function HomePage() {
           </div>
         </section>
       </main>
+
+      {/* ⭐ 광고를 Footer 바로 위에 배치 */}
+      <div style={{ marginTop: "3rem", marginBottom: "1rem" }}>
+        <GoogleAdBanner />
+      </div>
 
       {FOOTER}
     </>
