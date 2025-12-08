@@ -121,7 +121,7 @@ export default function HomePage() {
                 <h3>Qurionest?</h3>
                 <p>
                   일상 속에서 쉽게 즐길 수 있는 힐링 콘텐츠를 <br/>
-                  보다 널리 제공하기 위해 만들어진 작은 웹 공간입니다.
+                  보다 널리 제공하기 위해 만들어진 웹 공간입니다.
                 </p>
 
                 <p style={{ marginTop: '1rem' }}>
