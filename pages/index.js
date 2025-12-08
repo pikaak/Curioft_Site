@@ -1,6 +1,6 @@
 // pages/index.js
 import Head from 'next/head';
-import GoogleAdBanner from "@/components/GoogleAdBanner";  // ⭐ 광고 컴포넌트 추가
+import GoogleAdBanner from "../components/GoogleAdBanner";
 
 const NAV = (
   <header className="site-header">
